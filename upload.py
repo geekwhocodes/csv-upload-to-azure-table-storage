@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 from azure.cosmosdb.table.tableservice import TableService
-from azure.cosmosdb.table.models import Entity
 from azure.cosmosdb.table.tablebatch import TableBatch
 
+# create table service
 table_service = TableService(account_name='', account_key='')
 table_name = ''
 
